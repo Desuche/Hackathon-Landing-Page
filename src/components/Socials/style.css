@@ -16,6 +16,11 @@
   color: white;
   top: -5px;
 }
+
+.media p {
+  font-size: medium;
+  margin: 2.5rem;
+}
 @media (max-width: 570px) {
   .single {
     display: inline-block;

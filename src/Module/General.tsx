@@ -8,14 +8,8 @@ import hackathonLogo from './Assets/hackathonLogo.png';
 
 import boy from './Assets/boy.png';
 import pass from './Assets/sponsorsLogos/1pass.png';
-import ACF from './Assets/sponsorsLogos/ACF.png';
 import cfc from './Assets/sponsorsLogos/cfc.png';
 import echoAR from './Assets/sponsorsLogos/echoAR.png';
-import egg from './Assets/sponsorsLogos/egg.png';
-import glimpse from './Assets/sponsorsLogos/glimpse.png';
-import interviewC from './Assets/sponsorsLogos/interview-cake.jpg';
-import ll from './Assets/sponsorsLogos/ll.png';
-import qoom from './Assets/sponsorsLogos/qoom.svg';
 import Replit from './Assets/sponsorsLogos/replit.png';
 import sublime from './Assets/sponsorsLogos/sublime.png';
 import taskade from './Assets/sponsorsLogos/taskade.png';
@@ -49,19 +43,19 @@ const TOP_SECTION = {
 };
 
 const SOCIALS = {
-  instagram: 'https://www.instagram.com/limbohacks/',
+  instagram: 'https://www.instagram.com/',
   discord: 'https://discord.gg/VTq67QUTTx',
-  linkedin: 'https://www.linkedin.com/company/limbo-hacks/',
-  twitter: 'https://twitter.com/HacksLimbo',
-  devpost: 'https://limbo-hacks-12968.devpost.com/',
-  email: 'mailto:hello@limbohacks.tech',
-  mail: 'hello@limbohacks.tech'
+  linkedin: 'https://www.linkedin.com/',
+  twitter: 'https://twitter.com/',
+  devpost: 'https://google.com/',
+  email: 'mailto:bytebuzz@cs.hkbu.edu.hk',
+  mail: 'bytebuzz@cs.hkbu.edu.hk'
 };
 
 const MIDDLE_SECTION = {
-  TITLE: 'What is Limbo hacks?',
+  TITLE: 'What is ByteBUzz?',
   LONG_DESCRIPTION:
-    'Hack Limbo is 24 hour long running hackathon will be held on November 20th & 21th , We calls for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the weekend hackers at Limbo Hacks will have unique opportunities to learn from each other trying hands in new technologies We are determined to have an all-inclusive and diverse group of students attending.',
+  'ByteBuzz is an exhilarating hackathon event that convenes the brightest minds and tech enthusiasts from across Hong Kong to HKBU. It is a platform where innovation and creativity collide, igniting a vibrant atmosphere of problem-solving and ideation. Whether you\'re a seasoned developer or a budding programmer, ByteBuzz offers a unique opportunity to showcase your skills, learn from industry experts, and network with like-minded individuals. Get ready to unleash your potential, embrace the spirit of innovation, and make your mark at ByteBuzz, where ideas turn into reality.',
   LOGO: hackathonLogo
 };
 
@@ -206,19 +200,6 @@ const Prizeinfo = [
       type: 'Best UI/UX',
       content: 'Project with most creative designs will be UI/UX track'
     }
-  ],
-  [
-    //Array 3
-    {
-      icon: <i className="fas fa-4x sixth fa-male"></i>,
-      type: 'Best Web App with Qoom',
-      content: 'Must use qoom in your project to win this category'
-    },
-    {
-      icon: <i className="fas fa-user-friends seventh fa-3x "></i>,
-      type: 'More prizes',
-      content: 'More prizes will be revealed later'
-    }
   ]
 ];
 
@@ -252,23 +233,6 @@ const TeamInfo = [
       linkedin: '',
       img: Ryah
     }
-  ],
-  [
-    //Array 2
-    {
-      Name: 'Lyanola',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: lyin
-    },
-    {
-      Name: 'Zoheb',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: zoha
-    }
   ]
 ];
 
@@ -276,32 +240,8 @@ const JudgesInfo = [
   [
     //Array 1
     {
-      Name: 'Rehan',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: me
-    },
-    {
-      Name: 'Moon',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: moon
-    },
-    {
-      Name: 'Ryah Garcia',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: Ryah
-    }
-  ],
-  [
-    //Array 2
-    {
       Name: 'Lyanola',
-      role: 'Organizer',
+      role: 'Visiting Judge',
       github: '',
       linkedin: '',
       img: lyin
@@ -324,9 +264,7 @@ const JudgesInfo = [
 
 const sponsorLogos = [
   [{src: cfc}, {src: sublime}, {src: echoAR}], //Array 1
-  [{src: taskade}, {src: Replit}, {src: qoom}], //Array 2
-  [{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
-  [{src: egg}, {src: ll}, {src: ACF}] //Array 4
+  [{src: taskade}, {src: Replit}, {src: pass}] //Array 2
 ];
 
 /** Instructions
@@ -343,7 +281,7 @@ const frequentlyAskedQuestions = [
       {
         label: 'Who can attend?',
         content:
-          'Limbo Hacks is open to all undergraduate, high school students and middle school students from all schools.'
+          'ByteBUzz is open to all undergraduate, high school students and middle school students from all schools.'
       },
       {
         label: 'I am a first time hacker, what should I do?',
@@ -365,7 +303,7 @@ const frequentlyAskedQuestions = [
       {
         label: 'I have more questions?',
         content:
-          'Reach us directly at (rehan@limbohacks.tech or hello@limbohacks.tech) we would happy to help you.'
+          'Reach us directly at (bytebuzz@cs.hkbu.edu.hk)) we would happy to help you.'
       },
       {
         label: 'Can i volunteer?',
@@ -374,7 +312,7 @@ const frequentlyAskedQuestions = [
       },
       {
         label: 'Will there be swag?',
-        content: 'Yes! Participants will recieveing Limbo Hacks swag!.'
+        content: 'Yes! Participants will recieve BU CS swag 😎!'
       }
     ]
   ]

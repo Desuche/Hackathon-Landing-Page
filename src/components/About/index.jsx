@@ -1,6 +1,6 @@
 import './style.css';
 
-import {MIDDLE_SECTION} from '../../Module/General';
+import { MIDDLE_SECTION } from '../../Module/General';
 
 function LogoSectionAbout() {
   return (
@@ -14,9 +14,10 @@ function LogoSectionAbout() {
 function Logo() {
   return (
     <div className="logoS">
-      <img className="Logo" src={MIDDLE_SECTION.LOGO} alt="Limbohacks" />
+      <img className="Logo" src={MIDDLE_SECTION.LOGO} alt="Our Logo" />
     </div>
   );
 }
 
-export {Logo, LogoSectionAbout};
+export { Logo, LogoSectionAbout };
+

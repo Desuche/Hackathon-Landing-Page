@@ -40,6 +40,7 @@ export const Container = styled.div`
     }
   }
   .card-body {
+    height: 380px;
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto;
 
@@ -138,7 +139,7 @@ export const Event = styled.div`
 export const EventContainer = styled.div`
   background: transparent;
   overflow: scroll;
-  height: 400px;
+  height: 380px;
 `;
 
 export const EventLayout = styled.div`

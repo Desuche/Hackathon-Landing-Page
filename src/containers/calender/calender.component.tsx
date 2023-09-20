@@ -1,9 +1,9 @@
-import {AnimatePresence, motion} from 'framer-motion/dist/framer-motion';
-import {useContext, useEffect} from 'react';
-import {CALENDER_VIEW} from '../../constants';
-import {calenderContext} from '../../Context/calender.context';
-import {Flexbox} from '../../elements/Flexbox';
-import {calenderMainLogic} from './calender.function';
+import { AnimatePresence, motion } from 'framer-motion/dist/framer-motion';
+import { useContext, useEffect } from 'react';
+import { calenderContext } from '../../Context/calender.context';
+import { CALENDER_VIEW } from '../../constants';
+import { Flexbox } from '../../elements/Flexbox';
+import { calenderMainLogic } from './calender.function';
 import CalenderLayout from './calender.layout';
 
 import * as H from './style';

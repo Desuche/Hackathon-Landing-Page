@@ -55,7 +55,7 @@ h1 {
 .prizesection {
   text-align: center;
   margin: 0 auto;
-  padding: 0 4vh 0 4vh;
+  padding: 10vh 4vh 0;
   margin: 17vh 0vh 0 0vh;
   border-radius: 14px;
   margin-top: 4vh;
@@ -68,14 +68,19 @@ h1 {
 
 .sponsorSection {
   padding: 17vh 18vh 0 18vh;
-  margin-top: -10vh;
-  margin-top: 0vh;
+  margin-top: 10vh;
 }
 .faqsSection {
   text-align: center;
   margin: 0 auto;
   padding: 17vh 18vh 0 18vh;
   margin-top: -16vh;
+}
+.Myfaqs {
+  padding-top: 10vh;
+}
+.non-coding {
+  padding: 0;
 }
 
 @media (max-width: 570px) {

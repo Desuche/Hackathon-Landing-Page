@@ -1,6 +1,8 @@
-import {useEffect, useState} from 'react';
-import {FOOTER, SOCIALS, TOP_SECTION} from '../../Module/General';
-import {Btn} from '../Landing/index.jsx';
+import { useEffect, useState } from 'react';
+import { FOOTER, SOCIALS, TOP_SECTION } from '../../Module/General';
+import { Btn } from '../Landing/index.jsx';
+import PrivacyPolicy from './assets/Privacy Policy.pdf';
+import TermsOfUse from './assets/Terms and Conditions.pdf';
 import cross from './assets/cross.svg';
 import DevPost from './assets/icons8-dev-post.svg';
 import Dis from './assets/icons8-discord.svg';
@@ -8,8 +10,6 @@ import Insta from './assets/icons8-instagram.svg';
 import Linked from './assets/icons8-linkedin-2.svg';
 import Mail from './assets/icons8-mail.svg';
 import Twitter from './assets/icons8-twitter.svg';
-import PrivacyPolicy from './assets/Privacy policy.pdf';
-import TermsOfUse from './assets/Terms of use.pdf';
 //------------------------------------------------------------------
 import './style.scss';
 
