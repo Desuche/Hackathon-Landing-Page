@@ -92,23 +92,23 @@ const FOOTER = {
  */
 
 const calenderStartingDate = {
-  month: 12,
-  year: 2021
+  month: 9,
+  year: 2023
 };
 
 const schedule = [
   {
-    day: '8-11-2021',
+    day: '13-9-2023',
     events: [
       {
-        title: 'Intro to phycycology',
-        timings: '12 AM - 1 Pm',
-        link: 'https://google.com'
+        title: 'Securing a Tech Internship - Intern Panel Discussion',
+        timings: '6 PM - 8 Pm',
+        link: 'https://gdsc.community.dev/events/details/developer-student-clubs-hong-kong-baptist-university-presents-securing-a-tech-internship-intern-panel-discussion/'
       }
     ]
   },
   {
-    day: '5-12-2021',
+    day: '14-9-2023',
     events: [
       {
         title: 'Intro to deep learning',
@@ -123,7 +123,7 @@ const schedule = [
     ]
   },
   {
-    day: '3-12-2021',
+    day: '22-9-2023',
     events: [
       {
         title: 'Intro to phycycology',
@@ -133,7 +133,7 @@ const schedule = [
     ]
   },
   {
-    day: '1-12-2021',
+    day: '22-9-2023',
     events: [
       {
         title: 'Intro to deep learning',
@@ -143,7 +143,7 @@ const schedule = [
     ]
   },
   {
-    day: '1-1-2022',
+    day: '13-10-2023',
     events: [
       {
         title: 'Intro to phycycology',
