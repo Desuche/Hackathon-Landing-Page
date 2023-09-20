@@ -1,4 +1,4 @@
-import {SOCIALS, TOP_SECTION} from '../../Module/General';
+import { SOCIALS, TOP_SECTION } from '../../Module/General';
 import MytypedComponent from '../Typed/index.js';
 import './style.css';
 
@@ -17,7 +17,10 @@ const Btn = props => {
 const About = () => {
   return (
     <div className="AboutMe">
-      <h2>{TOP_SECTION.TITLE}</h2>
+      <h2>{TOP_SECTION.TITLE.substring(0, TOP_SECTION.TITLE_COLOURED_INDEX_START)}</h2>
+      <h2 className='special'>{TOP_SECTION.TITLE.substring(TOP_SECTION.TITLE_COLOURED_INDEX_START, TOP_SECTION.TITLE_COLOURED_INDEX_END + 1)}</h2>
+      <h2>{TOP_SECTION.TITLE.substring(TOP_SECTION.TITLE_COLOURED_INDEX_END + 1)}</h2>
+
       <MytypedComponent />
     </div>
   );
@@ -57,4 +60,5 @@ const Myinfo = () => {
   );
 };
 
-export {Btn, Myinfo};
+export { Btn, Myinfo };
+

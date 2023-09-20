@@ -34,10 +34,12 @@ import Ryah from './Assets/teami/Ryah.jpg';
 import zoha from './Assets/teami/zoha.png';
 
 const TOP_SECTION = {
-  TITLE: 'Join Limbo Hacks',
-  Typed_effect: ['24 hours of creation', 'Win awesome prizes'],
+  TITLE: 'Join ByteBUzz',
+  TITLE_COLOURED_INDEX_START: 9,
+  TITLE_COLOURED_INDEX_END: 10,
+  Typed_effect: ['24 hours of creation', 'Let\'s hack into the future'],
   SHORT_DESCRIPTION:
-    'Join us on 20th November 2021 with over 300 students from across the nation for 24 hours of creation, innovation, & fun.',
+    'Join us on 10th October 2023 with over 300 students from across Hong Kong for 24 hours of creation, innovation, & fun.',
   IMG_SRC: boy,
   DISCORD_LINK: '',
   JUDGES_FORM_LINK:
@@ -48,7 +50,7 @@ const TOP_SECTION = {
 
 const SOCIALS = {
   instagram: 'https://www.instagram.com/limbohacks/',
-  discord: 'https://discord.com/invite/8XJSzmtWPp',
+  discord: 'https://discord.gg/VTq67QUTTx',
   linkedin: 'https://www.linkedin.com/company/limbo-hacks/',
   twitter: 'https://twitter.com/HacksLimbo',
   devpost: 'https://limbo-hacks-12968.devpost.com/',
@@ -379,15 +381,7 @@ const frequentlyAskedQuestions = [
 ];
 
 export {
-  TOP_SECTION,
-  MIDDLE_SECTION,
-  SOCIALS,
-  FOOTER,
-  Prizeinfo,
-  sponsorLogos,
-  TeamInfo,
-  JudgesInfo,
-  frequentlyAskedQuestions,
-  schedule,
-  calenderStartingDate
+  calenderStartingDate, FOOTER, frequentlyAskedQuestions, JudgesInfo, MIDDLE_SECTION, Prizeinfo, schedule, SOCIALS, sponsorLogos,
+  TeamInfo, TOP_SECTION
 };
+

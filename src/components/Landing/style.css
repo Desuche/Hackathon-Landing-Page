@@ -22,7 +22,7 @@ button {
 
 .join_disco {
   width: 25rem;
-  background: linear-gradient(90deg, #9796F0 0%, #FBC7D4 100%);
+  background: linear-gradient(90deg, #5e5db9 0%, #FE6369 150%);
 }
 
 .join_disco i {
@@ -31,7 +31,7 @@ button {
 
 .join_dis {
   margin-bottom: 29px;
-  margin-top: 19px;
+  margin-top: 29px;
   
 }
 
@@ -42,13 +42,16 @@ button {
 
 .register {
   margin-left: 1rem;
-  border: 2px solid rgb(255, 255, 255);
-  background-color: transparent;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: #FAFF7F;
+  color: #2C4677;
+  font-weight: bolder;
 }
 
 .AboutMe h2 {
   font-size: 8rem;
   font-family: 'Noto Sans', sans-serif;
+  display: inline;
 }
 
 p {
@@ -59,7 +62,7 @@ p {
 
 .Myinfo {
   text-align: left;
-  margin-left: 10vh;
+  margin-left: 6vh;
 }
 
 .Myinfo p {
@@ -99,11 +102,10 @@ button:hover .overlay {
   left: 0;
 }
 
-@media (max-width: 1200px) {
-  .AboutMe h2 {
-    /* font-size: 6rem; */
-  }
+.AboutMe h2.special{
+  color:#FE6369;
 }
+
 
 /* main targer */
 
@@ -112,6 +114,7 @@ button:hover .overlay {
     width: 100%;
   }
   .AboutMe h2 {
+    display: inline;
     font-size: 4rem;
   }
   .register {
