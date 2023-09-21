@@ -7,13 +7,12 @@ import hackathonLogo from './Assets/hackathonLogo.png';
  */
 
 import boy from './Assets/boy.png';
-import pass from './Assets/sponsorsLogos/1pass.png';
 import cfc from './Assets/sponsorsLogos/cfc.png';
-import echoAR from './Assets/sponsorsLogos/echoAR.png';
-import Replit from './Assets/sponsorsLogos/replit.png';
+import cs from './Assets/sponsorsLogos/comp.png';
+import google from './Assets/sponsorsLogos/google.png';
+import hkbu from './Assets/sponsorsLogos/hkbu.png';
 import sublime from './Assets/sponsorsLogos/sublime.png';
 import taskade from './Assets/sponsorsLogos/taskade.png';
-import lyin from './Assets/teami/lyin.jpg';
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
@@ -22,10 +21,11 @@ import lyin from './Assets/teami/lyin.jpg';
 
 // Importing all Team members images  from Assets
 
-import me from './Assets/teami/me.png';
-import moon from './Assets/teami/moon.png';
-import Ryah from './Assets/teami/Ryah.jpg';
-import zoha from './Assets/teami/zoha.png';
+import girl1 from './Assets/teami/girl1.jpg';
+import girl2 from './Assets/teami/girl2.jpg';
+import man1 from './Assets/teami/man1.avif';
+import prof1 from './Assets/teami/prof1.jpg';
+import prof2 from './Assets/teami/prof2.jpg';
 
 const TOP_SECTION = {
   TITLE: 'Join ByteBUzz',
@@ -215,23 +215,23 @@ const TeamInfo = [
     {
       Name: 'Rehan',
       role: 'Organizer',
-      github: 'https://github.com/Limbo-Hacks/Hackathon-website-template',
+      github: '',
       linkedin: '',
-      img: me
+      img: man1
     },
     {
       Name: 'Moon',
       role: 'Organizer',
       github: '',
       linkedin: '',
-      img: moon
+      img: girl2
     },
     {
       Name: 'Erika',
       role: 'Organizer',
       github: '',
       linkedin: '',
-      img: Ryah
+      img: girl1
     }
   ]
 ];
@@ -244,14 +244,14 @@ const JudgesInfo = [
       role: 'Visiting Judge',
       github: '',
       linkedin: '',
-      img: lyin
+      img: prof1
     },
     {
       Name: 'Zoheb',
       role: 'Organizer',
       github: '',
       linkedin: '',
-      img: zoha
+      img: prof2
     }
   ]
 ];
@@ -263,8 +263,8 @@ const JudgesInfo = [
  */
 
 const sponsorLogos = [
-  [{src: cfc}, {src: sublime}, {src: echoAR}], //Array 1
-  [{src: taskade}, {src: Replit}, {src: pass}] //Array 2
+  [{src: cfc}, {src: sublime}, {src: google}], //Array 1
+  [{src: taskade}, {src: cs}, {src: hkbu}] //Array 2
 ];
 
 /** Instructions
@@ -318,8 +318,5 @@ const frequentlyAskedQuestions = [
   ]
 ];
 
-export {
-  calenderStartingDate, FOOTER, frequentlyAskedQuestions, JudgesInfo, MIDDLE_SECTION, Prizeinfo, schedule, SOCIALS, sponsorLogos,
-  TeamInfo, TOP_SECTION
-};
+export { FOOTER, JudgesInfo, MIDDLE_SECTION, Prizeinfo, SOCIALS, TOP_SECTION, TeamInfo, calenderStartingDate, frequentlyAskedQuestions, schedule, sponsorLogos };
 
