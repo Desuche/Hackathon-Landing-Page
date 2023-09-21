@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { FOOTER, SOCIALS, TOP_SECTION } from '../../Module/General';
 import { Btn } from '../Landing/index.jsx';
-import PrivacyPolicy from './assets/Privacy Policy.pdf';
+import PrivacyPolicy from './assets/Privacy policy.pdf';
 import TermsOfUse from './assets/Terms and Conditions.pdf';
 import cross from './assets/cross.svg';
 import DevPost from './assets/icons8-dev-post.svg';
