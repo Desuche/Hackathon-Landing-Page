@@ -24,7 +24,7 @@ const GithubTemplate = ({hideTemplate}) => {
           discussions, and career sessions!
         </p>
       </div>
-      <img onClick={hideTemplate} src={cross} />
+      <img onClick={hideTemplate} src={cross} alt =""/>
     </div>
   );
 };

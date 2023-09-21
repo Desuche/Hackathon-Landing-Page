@@ -37,9 +37,9 @@ const TOP_SECTION = {
   IMG_SRC: boy,
   DISCORD_LINK: '',
   JUDGES_FORM_LINK:
-    'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNVRQMUg4VllMRURDN1lON0haNFVCQUgySC4u',
+    'https://d7hlntva62z.typeform.com/to/CZfHdwuR',
   HACKERS_REGISTRATION_FORM_LINK:
-    'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNTgyREk0VzdEMU9RVFlPMVNWVEJQUkNYMi4u'
+    'https://d7hlntva62z.typeform.com/to/GrutbFw2'
 };
 
 const SOCIALS = {
@@ -62,11 +62,11 @@ const MIDDLE_SECTION = {
 const FOOTER = {
   VOLUNTEERING_FORM: {
     required: true,
-    src: 'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNFBQME44TzJZWDc2UFgwTUtLN0xDQVYyUi4u'
+    src: 'https://d7hlntva62z.typeform.com/to/CZfHdwuR'
   },
   JOIN_TEAM: {
     required: true,
-    src: 'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUOUhEQkJSRk02OEU4SlBMTUdYOFIxOTNZSy4u'
+    src: 'https://d7hlntva62z.typeform.com/to/CZfHdwuR'
   },
   Privacy_policy: {
     required: true,
