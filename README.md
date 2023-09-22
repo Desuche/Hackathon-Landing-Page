@@ -1,5 +1,5 @@
 ## Hackathon Landing Page
-- A landing page created for a hypothetical hackathon event "BytBUzz" at Hong Kong Baptist University.
+- A landing page created for a hypothetical hackathon event "ByteBUzz" at Hong Kong Baptist University.
 
 
 ---
