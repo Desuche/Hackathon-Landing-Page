@@ -1,11 +1,5 @@
 ## Hackathon Landing Page
-- A hackathon landing page created for a hypothetical event at Hong Kong baptist University.
-
-
-## [Prerequisites]()
-
-- Node js : 8.1.0
-- NPM : 8.1.0
+- A landing page created for a hypothetical hackathon event "BytBUzz" at Hong Kong Baptist University.
 
 
 ---
@@ -29,7 +23,7 @@ git --version
 If not installed, google the installation process for your device.
 
 
-Run the following to use  Node JS 14.21.2  (you can revert to your preffered version after running the project by using `nvm use ${preffered_node_version}`)
+Run the following to use  Node JS 14.21.2  (you can revert to your preferred version after running the project by using `nvm use ${preffered_node_version}`)
 
 ```bash
 nvm version
@@ -58,6 +52,11 @@ npm start
 ```
 
 `This will start client app on localhost:3000`
+
+
+## [Live Deployment]()
+
+You can access the live deployment at https://bytebuzz.netlify.app
 
 
 ## [Technologies Used]()
