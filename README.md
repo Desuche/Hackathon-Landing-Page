@@ -23,7 +23,7 @@ git --version
 If not installed, google the installation process for your device.
 
 
-Run the following to use  Node JS 14.21.2  (you can revert to your preffered version after running the project by using `nvm use ${preffered_node_version}`)
+Run the following to use  Node JS 14.21.2  (you can revert to your preferred version after running the project by using `nvm use ${preffered_node_version}`)
 
 ```bash
 nvm version
