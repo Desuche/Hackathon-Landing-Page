@@ -15,12 +15,26 @@
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-You'll need `Git` and `Node.js` (which comes with npm) installed on your computer.
+You'll need `Git` and `nvm` (Node version Manager) installed on your computer.
+
+Confirm installation by running each command:
 
 ```bash
-node@v10.16.0 or higher
-npm@6.9.0 or higher
-git@2.17.1 or higher
+nvm version
+```
+```bash
+git --version
+```
+
+If not installed, google the installation process for your device.
+
+
+Run the following to use  Node JS 14.21.2  (you can revert to your preffered version after running the project by using `nvm use ${preffered_node_version}`)
+
+```bash
+nvm version
+nvm install 14.21.2
+nvm use 14.21.2
 
 ```
 
