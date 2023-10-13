@@ -11,6 +11,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
+		sh 'sudo apt-get install curl'
 		sh 'curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash'
 		sh 'nvm install 14.21.2'
 		sh 'nvm use 14.21.2'
