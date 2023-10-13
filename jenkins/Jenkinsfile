@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'node:lts-buster'
+            image 'node:14.21-slim'
             args '-p 3000:3000'
         }
     }
@@ -11,8 +11,6 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-		sh 'curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash'
-		sh 'nvm install 14.21.2'
                 sh 'npm install'
             }
         }
